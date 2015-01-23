@@ -14,7 +14,7 @@
         $(submmitButtonName).hide();
 
         // 2
-        $(element).before("<ul id='steps'></ul>");
+       $(element).before("<ul id='steps'></ul>");
 
         steps.each(function(i) {
             $(this).wrap("<div id='step" + i + "'></div>");
@@ -22,7 +22,7 @@
 
             // 2
             var name = $(this).find("legend").html();
-            $("#steps").append("<li id='stepDesc" + i + "'>Step " + (i + 1) + "<span>" + name + "</span></li>");
+            $("#steps").append("<li id='stepDesc" + i + "'>Part " + (i + 1) + "</li>");
 
             if (i == 0) {
                 createNextButton(i);
@@ -68,6 +68,9 @@
             $("#steps li").removeClass("current");
             $("#stepDesc" + i).addClass("current");
         }
+		function createPage(){
+			"";
+		}
 
     }
 })(jQuery); 
