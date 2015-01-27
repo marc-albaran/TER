@@ -3,7 +3,7 @@ session_start();
 
 	//!isset($_SESSION['user_id'])
 	//replace true
-	if(false  ){
+	if(false ){
 		header('Location:http://web.msuiit.edu.ph/');
 		exit();
 	}
@@ -45,23 +45,19 @@ session_start();
 						<thead>
 							<th>Subject Code</th>
 							<th>Section</th>
-							<th>Description</th>
 							<th>Teacher</th>
 						</thead>
 						<tr>
 							<td>test</td>
 							<td>test</td>
 							<td>test</td>
-							<td>test</td>
 						</tr>
 						<tr>
 							<td>test</td>
 							<td>test</td>
 							<td>test</td>
-							<td>test</td>
 						</tr>
 						<tr>
-							<td>test</td>
 							<td>test</td>
 							<td>test</td>
 							<td>test</td>
