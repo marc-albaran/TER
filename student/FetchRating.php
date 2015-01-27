@@ -3,26 +3,27 @@ class FetchRating{
 	public function rating()
 	{
 		return[
-			isset($_POST['1'])?(int)$_POST['1']:NULL,
-			isset($_POST['2'])?(int)$_POST['2']:NULL,
-			isset($_POST['3'])?(int)$_POST['3']:NULL,
-			isset($_POST['4'])?(int)$_POST['4']:NULL,
-			isset($_POST['5'])?(int)$_POST['5']:NULL,
-			isset($_POST['6'])?(int)$_POST['6']:NULL,
-			isset($_POST['7'])?(int)$_POST['7']:NULL,
-			isset($_POST['8'])?(int)$_POST['8']:NULL,
-			isset($_POST['9'])?(int)$_POST['9']:NULL,
-			isset($_POST['10'])?(int)$_POST['10']:NULL,
-			isset($_POST['11'])?(int)$_POST['11']:NULL,
-			isset($_POST['12'])?(int)$_POST['12']:NULL,
-			isset($_POST['13'])?(int)$_POST['13']:NULL,
-			isset($_POST['14'])?(int)$_POST['14']:NULL,
-			isset($_POST['15'])?(int)$_POST['15']:NULL,
-			isset($_POST['16'])?(int)$_POST['16']:NULL,
-			isset($_POST['17'])?(int)$_POST['17']:NULL,
-			isset($_POST['18'])?(int)$_POST['18']:NULL,
-			isset($_POST['19'])?(int)$_POST['19']:NULL,
-			isset($_POST['20'])?(int)$_POST['20']:NULL
+			isset($_POST['item1'])?(int)$_POST['item1']:NULL,
+			isset($_POST['item2'])?(int)$_POST['item2']:NULL,
+			isset($_POST['item3'])?(int)$_POST['item3']:NULL,
+			isset($_POST['item4'])?(int)$_POST['item4']:NULL,
+			isset($_POST['item5'])?(int)$_POST['item5']:NULL,
+			isset($_POST['item6'])?(int)$_POST['item6']:NULL,
+			isset($_POST['item7'])?(int)$_POST['item7']:NULL,
+			isset($_POST['item8'])?(int)$_POST['item8']:NULL,
+			isset($_POST['item9'])?(int)$_POST['item9']:NULL,
+			isset($_POST['item10'])?(int)$_POST['item10']:NULL,
+			isset($_POST['item11'])?(int)$_POST['item11']:NULL,
+			isset($_POST['item12'])?(int)$_POST['item12']:NULL,
+			isset($_POST['item13'])?(int)$_POST['item13']:NULL,
+			isset($_POST['item14'])?(int)$_POST['item14']:NULL,
+			isset($_POST['item15'])?(int)$_POST['item15']:NULL,
+			isset($_POST['item16'])?(int)$_POST['item16']:NULL,
+			isset($_POST['item17'])?(int)$_POST['item17']:NULL,
+			isset($_POST['item18'])?(int)$_POST['item18']:NULL,
+			isset($_POST['item19'])?(int)$_POST['item19']:NULL,
+			isset($_POST['item20'])?(int)$_POST['item20']:NULL,
+			isset($_POST['comment'])?$_POST['comment']:NULL
 		];	
 	}
 }
