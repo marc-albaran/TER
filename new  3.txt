@@ -1,0 +1,865 @@
+
+			<form id="SignupForm" method="post" action="FetchRating.php">
+				<fieldset id="1">
+					<h4>I.</h4>
+					<p>1. Attends class regularly.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td><p class="text-muted">Never</p></td>
+							<td colspan="2"><p class="text-muted">Seldom</p></td>
+							<td colspan="2"><p class="text-muted">Often</p></td>
+							<td><p class="text-muted">Always</p></td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+										<input type="radio" name="1" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="1" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="1" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="1" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="1" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="1" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>	
+								
+					<p>2. Comes to class on time.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+										<input type="radio" name="2" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="2" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="2" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="2" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="2" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="2" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>	
+	
+					<p>3. Give reasons when class is suspended.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="3" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="3" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="3" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="3" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="3" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="3" value="10"> 10
+									</label>
+					
+								</td>
+							</tr>
+						</table>	
+	
+					<p>4. Dismisses class on time.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="4" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="4" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="4" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="4" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="4" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="4" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>	
+	
+				</fieldset>
+
+				<fieldset id="2">
+					<h4>II.</h4>
+					<p>5. Comes to class well prepared.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="5" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="5" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="5" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="5" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="5" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="5" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+
+					<p>6. Answers well the question of the students.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="6" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="6" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="6" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="6" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="6" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="6" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>7. Presents lessons in an orderly manner.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="7" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="7" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="7" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="7" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="7" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="7" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>8. Presents lessons clearly with present and future application/use.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="8" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="8" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="8" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="8" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="8" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="8" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>9. Covers satisfactorily the contents of the course.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="9" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="9" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="9" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="9" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="9" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="9" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+				</fieldset>
+
+				<fieldset id="3">
+					<h4>III.</h4>
+					<p>10. Gives illustrations, examples that makes lessons clear.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="10" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="10" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="10" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="10" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="10" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="10" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>11. Gives and returns quizzes/exams regularly after correcting.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="11" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="11" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="11" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="11" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="11" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="11" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>12. Encourage active participation of students.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="12" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="12" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="12" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="12" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="12" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="12" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>13. Listens attentively to student&#39s reports disscussions in class.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="13" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="13" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="13" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="13" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="13" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="13" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>14. Uses different methods and techniques of teaching to make lessons clear.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="14" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="14" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="14" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="14" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="14" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="14" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>15. Varies teaching strategies to make lessons interesting.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="15" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="15" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="15" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="15" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="15" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="15" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>16. Motivates students to thik and analyze.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="16" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="16" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="16" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="16" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="16" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="16" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>17. Shows approachability and open mindedness.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="17" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="17" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="17" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="17" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="17" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="17" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+				</fieldset>
+				
+				<fieldset id="4">
+					<h4>IV.</h4>
+					<p>18. I learn from this teacher.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="18" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="18" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="18" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="18" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="18" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="18" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>19. The teacher is fair in giving grades.</p>
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="19" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="19" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="19" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="19" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="19" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="19" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+					<p>20. I will advise my friends to be <i>under</i> this teacher.</p> 
+						<table class="table table-condensed">
+							<tr align="center">
+							<td>Never</td>
+							<td colspan="2">Seldom</td>
+							<td colspan="2">Often</td>
+							<td>Always</td>
+							</tr>
+							
+							<tr align="center">
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="20" value="5"> 5
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="20" value="6"> 6
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="20" value="7"> 7
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="20" value="8"> 8
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="20" value="9"> 9
+									</label>
+								</td>
+								<td>
+									<label class="radio-inline">
+									  <input type="radio" name="20" value="10"> 10
+									</label>
+								</td>
+							</tr>
+						</table>
+				</fieldset>
+				<button class="btn btn-default" id="SaveAccount" type="submit"><i class="fa fa-share"></i> Submit</button>
+			</form>
