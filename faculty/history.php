@@ -9,14 +9,22 @@
 	<!--Bootstrap Core Css-->
 	<link rel="stylesheet" href="../_assets\css\bootstrap.min.css">
 	<link rel="stylesheet" href="../_assets\font-awesome-4.2.0\css\font-awesome.min.css">
-
-	<!--DataTables CSS-->
+	
+	<!--SCRIPT SEARCH USING FUZZY-->
+	<script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
+	<script src="../_assets\jquery-searchable\jquery.searchable.js"></script>
+	<script>
+		$(function () {
+			$( '#table' ).searchable({
+		});
+	</script>
+	<!--DataTables CSS-
 	<link rel="stylesheet" type="text/css" href="../DataTables-1.10.4\media\css\jquery.dataTables.css">
 	
-	<!-- jQuery -->
+	<!-- jQuery 
 	<script type="text/javascript" charset="utf8" src="../DataTables-1.10.4/media/js/jquery.js"></script>
   
-	<!-- DataTables -->
+	<!-- DataTables -
 	<script type="text/javascript" charset="utf8" src="../DataTables-1.10.4/media/js/jquery.dataTables.js"></script>
 	
 	<!--SUM().JS
@@ -39,12 +47,6 @@
 		$(document).ready(function(){
 			$("#SignupForm").formToWizard({ submitButton: 'SaveAccount' })
 		});
-	</script>
-	
-	<script>
-		$(document).ready( function () {
-			$('#table_id').DataTable();
-		} );
 	</script>
 	
 	<style type="text/css">
@@ -81,8 +83,14 @@
 			<li role="presentation" class="active"><a href="history.php">History</a></li>
 		</ul>
 	<br>
+	<div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <input type="search" id="search" value="" class="form-control" placeholder="Search">
+        </div>
+    </div>
+		<br>
 		<div class="responsive-table">
-			<table class="table table-border">
+			<table class="table table-border"  id="table">
 				<thead>
 					<tr>
 						<th><strong>Course</strong></th>
@@ -116,6 +124,9 @@
 	</div>
 	</div>
 	</div>
+	
+	
+
 </body>
 </html>
 

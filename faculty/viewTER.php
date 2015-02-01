@@ -42,6 +42,7 @@
 				<br>
 				<font color="#ffffff"><strong>Name of Faculty:</strong></font>
 				<p class="text-muted"><font color="#ffffff">Faculty ID:<br>Deaprtment:<br>College:</p></font>
+
 			</div>
 		<div class="col-md-9" align="left">
 			</div>
@@ -53,9 +54,8 @@
 			<li role="presentation"><a href="history.php">History</a></li>
 		</ul>
 	<br>
-	<div id="myEvaluation" class="responsive-table">
-			<table class="table table-border">
-				<thead>
+	<table class="table table-condensed" align ="center">
+				
 					<tr>
 						<th><strong>Course</strong></th>
 						<th><strong>Section<strong></th>
@@ -99,6 +99,17 @@
     } );
 	} );
 	</script>
+	
+	<!--SCRIPT Clickable ROW-->
+	<!--
+	<script>
+		jQuery(document).ready(function($) {
+			$(".clickableRow").click(function() {
+				window.document.location = $(this).attr("href");
+			});
+		});
+	</script>
+	-->
 </body>
 </html>
 
