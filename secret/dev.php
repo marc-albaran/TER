@@ -37,7 +37,7 @@
 		<div id="details" class="row" style="background-color: #7e0108;">
 			<div class="col-md-3" align="center" style="background-color: #7e0108;">
 				<br>
-				<img src="../_assets\img\alt.jpg" alt="" class="img-responsive img-circle img-thumbnail" width="60%">
+				<img src="../_assets\img\logo.png" alt="" class="img-responsive" width="90%">
 				
 				<br><br><br>
 
@@ -53,7 +53,7 @@
 	<div class="row col-md-8">
 			<div class="col-xs-6 col-sm-4" align="center" style="background-color: #ffffff;">
 				<br>
-				<img src="../_assets\img\maria.jpg" alt="" class="img-responsive img-circle img-thumbnail" width="75%">
+				<img src="../_assets\img\marc.jpg" alt="" class="img-responsive img-circle img-thumbnail" width="75%">
 				<br><br>
 			</div>
 	</div>
@@ -63,7 +63,7 @@
 	<div class="row col-md-8">
 			<div class="col-xs-6 col-sm-4" align="center" style="background-color: #ffffff;">
 				<br>
-				<img src="../_assets\img\maria.jpg" alt="" class="img-responsive img-circle img-thumbnail" width="75%">
+				<img src="../_assets\img\joseph.jpg" alt="" class="img-responsive img-circle img-thumbnail" width="75%">
 				<br><br>
 			</div>
 	</div>
